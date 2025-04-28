@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc --watch"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/krisKajtna/praksa_typescript_todo#readme",
   "devDependencies": {
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "uuid": "^11.1.0"
   }
 }
